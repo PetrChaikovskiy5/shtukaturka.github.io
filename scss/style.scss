@@ -36,3 +36,191 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
+.wrapper {
+	height: 100%;
+	// overflow: hidden;
+	min-height: 100%;
+}
+.header {
+	min-height: 500px;
+	background-image: url(../img/hederimg.png);
+
+		// .header__head
+
+		&__head {display: flex;
+			justify-content: space-between;
+			padding-top: 15px;
+	
+		}
+
+		// .header__logo
+
+		&__logo {
+		}
+
+		// .header__button
+
+		&__button {
+			display: flex;
+			justify-items: center;
+			align-items: center;
+		}
+
+		// .header__phone
+
+		&__phone a{font-weight: 600;
+			color: black
+		}
+
+		// .header__button-btn
+
+		&__button-btn button{
+			width: 230px;
+			height: 50px;
+			border-radius: 5px;
+			margin-left: 20px;
+		}
+
+		// .header__body
+
+		&__body {
+		}
+
+		// .header__text
+
+		&__text {
+		}
+
+		// .header__form
+
+		&__form {
+		}
+
+		// .header__form-main
+
+		&__form-main {
+		}
+
+		// .header__form-input
+
+		&__form-input {
+		}
+
+		// .header__form-btn
+
+		&__form-btn {
+		}
+
+		// .header__form-p
+
+		&__form-p {
+		}
+}
+.content {
+		max-width: 1285px;
+	margin: 0 auto;
+}
+.logo {
+}
+
+.button button{
+	color: white;
+	background-color: #ebac44;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+button:hover{background-color:#ea9a1b;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+	}
+.price {
+
+		// .price__head
+
+		&__head {
+		}
+
+		// .price__head-header
+
+		&__head-header {
+		}
+
+		// .price__head-button
+
+		&__head-button {
+		}
+
+		// .price__item
+
+		&__item {
+		}
+
+		// .price__item-btn
+
+		&__item-btn {
+		}
+}
+.feedback {
+
+		// .feedback__slide-head
+
+		&__slide-head {
+		}
+
+		// .feedback__slide
+
+		&__slide {
+		}
+
+		// .feedback__slide-item
+
+		&__slide-item {
+		}
+
+		// .feedback__img
+
+		&__img {
+		}
+
+		// .feedback__description
+
+		&__description {
+		}
+
+		// .feedback__description-object
+
+		&__description-object {
+		}
+
+		// .feedback__description-subject
+
+		&__description-subject {
+		}
+}
+.footer {
+
+		// .footer__logo
+
+		&__logo {
+		}
+
+		// .footer__contacts
+
+		&__contacts {
+		}
+
+		// .footer__contacts-phone
+
+		&__contacts-phone {
+		}
+
+		// .footer__contacts-mail
+
+		&__contacts-mail {
+		}
+
+		// .footer__contacts-time
+
+		&__contacts-time {
+		}
+}
