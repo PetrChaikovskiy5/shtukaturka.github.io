@@ -13,6 +13,9 @@
 a:focus,a:active{outline: none;}
 
 nav,footer,header,aside{display: block;}
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+}
 
 html,body{
 	height: 100%;
@@ -43,13 +46,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .header {
 	min-height: 500px;
-	background-image: url(../img/hederimg.png);
-
+	background: no-repeat center url("shtukaturka.github.io\img\head_img.png");
+	background-color: aqua;
+	
 		// .header__head
 
 		&__head {display: flex;
 			justify-content: space-between;
 			padding-top: 15px;
+			margin-bottom: 30px;
 	
 		}
 
@@ -84,11 +89,39 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		// .header__body
 
 		&__body {
+			display: flex;
+			justify-content: space-between;
+			
 		}
 
 		// .header__text
 
 		&__text {
+			display: flex;
+			flex-direction: column;
+			max-width: 510px;
+			justify-content: space-between;
+			font-size: 18px;
+			
+			h1{text-transform: uppercase;
+				font-size: 30px;
+			}
+			&-no{margin-top: 35px;}
+			&-green{
+				display: flex;
+				justify-content: center;
+				width: 230px;
+				height: 110px;
+				background-color: #72b55f;
+				color: white;
+				margin: 45px 0 25px 0;
+				padding: 5px;
+				text-align: center;
+				p{text-align: center;
+				margin: auto 0;}
+				span {font-size: 30px;
+				font-weight: 600;}
+			}
 		}
 
 		// .header__form
@@ -117,7 +150,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		}
 }
 .content {
-		max-width: 1285px;
+	max-width: 1285px;
 	margin: 0 auto;
 }
 .logo {
